@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"solidity.soliumRules": {
+			"imports-on-top": 0,
+			"variable-declarations": 0,
+			"indentation": [
+				"warning",
+				2
+			],
+			"quotes": [
+				"error",
+				"double"
+			]
+		}
+	}
+}
