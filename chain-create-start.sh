@@ -22,4 +22,4 @@ ADDRESS=$ADDRESS_LINE
 
 # unlock the user
 echo ">>>>>>>>>>>>> unlocking newly created user: $ADDRESS"
-geth --datadir $DATA_FOLDER --unlock $ADDRESS --password defaultpassword.txt
+geth --datadir $DATA_FOLDER --rpc --ws --wsorigins="*" --unlock $ADDRESS --password defaultpassword.txt
