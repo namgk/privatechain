@@ -8,4 +8,5 @@ fi
 
 NETWORK=$1
 
+rm -rf build
 truffle migrate --network $NETWORK

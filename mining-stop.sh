@@ -2,7 +2,7 @@
 set -e
 
 if [[ $# -eq 0 ]]; then
-    echo "Usage: ./start-mining.sh <chain data folder>"
+    echo "Usage: ./mining-stop.sh <chain data folder>"
     exit 1
 fi
 
